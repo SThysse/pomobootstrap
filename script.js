@@ -41,3 +41,15 @@ function SlideShow(n) {
   slides[slidePosition - 1].style.display = "block";
   circles[slidePosition - 1].className += " enable";
 }
+
+const palm = document.querySelectorAll("#palm");
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    entry.target.classList.toggle("show-palm", entry.isIntersecting);
+  });
+});
+
+palm.forEach((path) => {
+  observer.observe(path);
+});

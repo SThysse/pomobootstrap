@@ -86,9 +86,6 @@ body {
 }
 
 /* SVG Animation */
-path {
-  translate: -52.2% -3%;
-}
 #brand-name2 {
   position: relative;
   top: -25%;
@@ -99,41 +96,49 @@ path {
   stroke-dasharray: 296.4px;
   stroke-dashoffset: 296.4px;
   animation: line-anim 2s ease forwards 1.8s;
+  translate: -52.2% -3%;
 }
 #brand-name2 path:nth-child(2) {
   stroke-dasharray: 359px;
   stroke-dashoffset: 359px;
   animation: line-anim 2s ease forwards 2.1s;
+  translate: -52.2% -3%;
 }
 #brand-name2 path:nth-child(3) {
   stroke-dasharray: 558.4px;
   stroke-dashoffset: 558.4px;
   animation: line-anim 2s ease forwards 2.4s;
+  translate: -52.2% -3%;
 }
 #brand-name2 path:nth-child(4) {
   stroke-dasharray: 359px;
   stroke-dashoffset: 359px;
   animation: line-anim 2s ease forwards 2.7s;
+  translate: -52.2% -3%;
 }
 #brand-name2 path:nth-child(5) {
   stroke-dasharray: 370px;
   stroke-dashoffset: 370px;
   animation: line-anim 2s ease forwards 3s;
+  translate: -52.2% -3%;
 }
 #brand-name2 path:nth-child(6) {
   stroke-dasharray: 359px;
   stroke-dashoffset: 359px;
   animation: line-anim 2s ease forwards 3.3s;
+  translate: -52.2% -3%;
 }
 #brand-name2 path:nth-child(7) {
   stroke-dasharray: 373px;
   stroke-dashoffset: 373px;
   animation: line-anim 2s ease forwards 3.6s;
+  translate: -52.2% -3%;
 }
 #brand-name2 path:nth-child(8) {
   stroke-dasharray: 359px;
   stroke-dashoffset: 359px;
   animation: line-anim 2s ease forwards 3.9s;
+  translate: -52.2% -3%;
 }
 @keyframes line-anim {
   to {
@@ -161,7 +166,7 @@ path {
 .intro {
   background: black;
   position: fixed;
-  z-index: 2;
+  z-index: 5;
   top: 0;
   left: 0;
   width: 100%;
@@ -544,6 +549,12 @@ section.featured-food {
   background-origin: padding-box, border-box;
 }
 /* Accommodation */
+#palm {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 20px;
+}
 .main-accommodation-heading {
   text-align: center;
   color: white;
@@ -605,6 +616,26 @@ section.featured-food {
   font-family: "Source Serif Pro", serif;
   margin-bottom: 20px;
 }
+.accommodation-svg {
+  position: relative;
+  height: 500px;
+  justify-content: center;
+  align-content: center;
+}
+.layer {
+  position: relative;
+  left: 40%;
+}
+#palm {
+  width: 350px;
+  height: 200px;
+  position: relative;
+  stroke-dasharray: 6706px;
+  stroke-dashoffset: 6706px;
+}
+.show-palm {
+  animation: line-anim 5s ease forwards, fillin 2s ease forwards 2s;
+}
 
 footer {
   background-color: #1f2021;
@@ -663,6 +694,10 @@ footer ul li i:hover {
   }
   .bookings-text {
     font-size: medium;
+  }
+  #palm {
+    width: 250px;
+    height: 150px;
   }
 }
 
