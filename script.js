@@ -1,3 +1,4 @@
+gsap.registerPlugin(ScrollTrigger);
 // Intro Animation
 
 const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
@@ -52,4 +53,17 @@ const observer = new IntersectionObserver((entries) => {
 
 palm.forEach((path) => {
   observer.observe(path);
+});
+
+let tl5 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".about-text-container",
+    start: "top top",
+    scrub: true,
+    pin: ".about-section",
+  },
+});
+
+tl5.to(".about-text-container", {
+  x: "0",
 });

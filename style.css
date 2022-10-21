@@ -199,6 +199,7 @@ body {
 }
 /* About Section */
 .about-section {
+  overflow: hidden;
   background-color: black;
   color: white;
   text-align: center;
@@ -229,6 +230,10 @@ body {
   height: 100%;
   z-index: 1;
   overflow: auto;
+  transform: translateX(-100%);
+}
+.atc-active {
+  transform: translateX(100%);
 }
 .about-img-img {
   position: relative;
@@ -261,6 +266,7 @@ section.page-heading {
   padding-top: 30px;
   text-align: center;
 }
+
 .menu-heading {
   font-family: "Oswald", sans-serif;
 }
