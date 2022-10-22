@@ -370,6 +370,18 @@ section.featured-food {
   background-color: black;
   padding: 30px;
 }
+.special-container {
+  overflow: hidden;
+}
+.special-one {
+  transform: translateX(-100%);
+}
+.special-two {
+  transform: translateY(-100%);
+}
+.special-three {
+  transform: translateX(100%);
+}
 
 .food-item h2 {
   margin-top: 0px;

@@ -67,3 +67,42 @@ let tl5 = gsap.timeline({
 tl5.to(".about-text-container", {
   x: "0",
 });
+
+// let tl6 = gsap.timeline({
+//   scrollTrigger: {
+//     trigger: ".specials",
+//     start: "top 30%",
+//   },
+// });
+
+// tl6
+//   .to(".special-one", { x: 0, duration: 1, ease: "power1.out" })
+//   .to(".special-two", { x: 0, duration: 1, ease: "power1.out" })
+//   .to(".special-three", { x: 0, duration: 1, ease: "power1.out" });
+gsap.to(".special-one", {
+  scrollTrigger: {
+    trigger: ".specials",
+    start: "top 30%",
+  },
+  x: 0,
+  duration: 1,
+  ease: "power1.out",
+});
+gsap.to(".special-two", {
+  scrollTrigger: {
+    trigger: ".specials",
+    start: "top 30%",
+  },
+  y: 0,
+  duration: 1,
+  ease: "power1.out",
+});
+gsap.to(".special-three", {
+  scrollTrigger: {
+    trigger: ".specials",
+    start: "top 30%",
+  },
+  x: 0,
+  duration: 1,
+  ease: "power1.out",
+});
