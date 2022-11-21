@@ -37,7 +37,7 @@
         <span class="bar"></span>
       </a>
       <div class="navbar_links">
-        <ul>
+        <ul class="nav-ul">
           <li><a href="#">About Us</a></li>
           <li><a href="#">Menu</a></li>
           <li><a href="#">Gallery</a></li>
@@ -119,12 +119,23 @@
         </h1>
       </div>
     </div>
-    <section class="about-section">
-      <div class="about-container">
-        <div class="about-text-container">
-          <div class="about-info">
-            <h3 class="about-text-header">ABOUT US</h3>
-            <p class="about-info-text">
+
+    <!-- About Start -->
+    <div class="container-fluid py-0">
+      <div class="container">
+        <div class="section-title">
+          <h4
+            class="text-white text-uppercase about-heading"
+            style="letter-spacing: 5px"
+          >
+            About Us
+          </h4>
+          <h1 class="text-white display-4 about-text">Serving Since 2003</h1>
+        </div>
+        <div class="row">
+          <div class="text-white col-lg-4 py-0 py-lg-5">
+            <h1 class="mb-3 about-heading">Who We Are</h1>
+            <p class="about-text">
               Pomodoro is a charming family tratoria in the heart of the
               Wilderness Village. It is the meeting place of the locals and you
               will always find it buzzing with activity. The outside terraces
@@ -134,8 +145,19 @@
               you to this restaurant which they have worked so hard to make the
               best in the Wilderness.
             </p>
-            <h3 class="about-text-header text-hide">INSPIRED ITALIAN FOOD</h3>
-            <p class="about-info-text text-hide">
+          </div>
+          <div class="col-lg-4 py-5 py-lg-0" style="min-height: 500px">
+            <div class="position-relative h-100">
+              <img
+                class="position-absolute w-100 h-100"
+                src="img/pizza.png"
+                style="object-fit: cover"
+              />
+            </div>
+          </div>
+          <div class="text-white col-lg-4 py-0 py-lg-5">
+            <h1 class="mb-3 about-heading">What We Do</h1>
+            <p class="about-text">
               The pizzas are possibly the best on the Garden Route and the
               beautiful salads, antipasto, pastas, grills and seafood never fail
               to satisfy. All dishes are based on traditional recipes that
@@ -147,15 +169,10 @@
             </p>
           </div>
         </div>
-        <div class="about-img about-img1">
-          <img
-            src="img/m_DSC_6101.jpg"
-            alt="Pomodoro-Building"
-            class="about-img-img"
-          />
-        </div>
       </div>
-    </section>
+    </div>
+    <!-- About End -->
+
     <section class="page-heading">
       <div class="container">
         <div class="row">
@@ -458,7 +475,11 @@
       </div>
     </section>
     <div class="menu-downlaod">
-      <a class="menu-link" href="PomodoroMenu.pdf"
+      <a
+        class="menu-link"
+        href="PomodoroMenu.pdf"
+        target="_blank"
+        rel="noopener noreferrer nofollow"
         >Click To Download Our Full Menu</a
       >
     </div>
@@ -576,7 +597,7 @@
       </div>
       <div class="bookings">
         <h4 class="bookings-text">
-          FOR LARGE BOOKINGS (8 OR MORE) OR FUNCTIONS
+          FOR LARGE BOOKINGS (8 OR MORE) AND FUNCTIONS
         </h4>
         <h4 class="bookings-text">PLEASE CONTACT A MANAGER</h4>
       </div>
@@ -701,6 +722,8 @@
             <a
               class="booking-dolphin-dunes"
               href="https://www.dolphindunes.co.za/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
               >Book Now</a
             >
           </div>
@@ -793,8 +816,84 @@
             <a
               class="booking-post-office-lodge"
               href="http://www.postofficelodge.co.za/index.html"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
               >Book Now</a
             >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="contact-heading">
+        <h3>Contact Us</h3>
+      </div>
+      <div class="contact-details">
+        <div class="contacts">
+          <div class="cotacts-details">
+            <h5>Get In Touch</h5>
+            <p>Tel: <a href="tel:+27448771403">+27 44 877 1403</a></p>
+            <p>
+              Email:
+              <a href="mailto: pomodoro@etime.co.za">pomodoro@etime.co.za</a>
+            </p>
+            <div class="row">
+              <ul class="social-icons">
+                <li>
+                  <a
+                    href="https://www.facebook.com/PomodoroRestaurantWilderness"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    ><i class="fa fa-facebook"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.tripadvisor.co.za/Restaurant_Review-g312610-d1909987-Reviews-Pomodoro-Wilderness_Western_Cape.html"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    ><i class="fa fa-tripadvisor"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/explore/locations/427206172/pomodoro-restaurant-wilderness"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.google.com/search?q=pomodoro+restaurant&oq=pomodoro+restaurant&aqs=chrome.0.0i355i457i512j46i175i199i512j69i60l2j0i512l3j46i175i199i512j0i512l2.6058j0j4&client=ms-android-vf-za-revc&sourceid=chrome-mobile&ie=UTF-8#trex=m_t:lcl_akp,rc_f:nav,rc_ludocids:14690117064930004955,rc_q:Pomodoro%2520Restaurant,ru_q:Pomodoro%2520Restaurant,trex_id:ocuFTc&lpg=cid:CgIgAQ%3D%3D"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    ><i class="fa fa-google"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div id="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1169.5348126224208!2d22.576185864199388!3d-33.993972458006375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcbddc7a3940e8fdb!2sPomodoro%20Restaurant!5e0!3m2!1sen!2sza!4v1669017586489!5m2!1sen!2sza"
+            width="400"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="location">
+          <div class="location-details">
+            <h5>Location</h5>
+            <p>197 George Road</p>
+            <p>Wilderness, South-Africa</p>
+            <p>6560</p>
           </div>
         </div>
       </div>
@@ -805,46 +904,17 @@
           <div class="col-md-4">
             <p>&copy; Copyright Pomodoro Restaurant</p>
           </div>
-          <div class="col-md-4">
-            <ul class="social-icons">
-              <li>
-                <a
-                  href="https://www.facebook.com/PomodoroRestaurantWilderness"
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  ><i class="fa fa-facebook"></i
-                ></a>
-              </li>
-              <li>
-                <a
-                  href="https://www.tripadvisor.co.za/Restaurant_Review-g312610-d1909987-Reviews-Pomodoro-Wilderness_Western_Cape.html"
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  ><i class="fa fa-tripadvisor"></i
-                ></a>
-              </li>
-              <li>
-                <a
-                  href="https://www.instagram.com/explore/locations/427206172/pomodoro-restaurant-wilderness"
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  ><i class="fa fa-instagram"></i
-                ></a>
-              </li>
-              <li>
-                <a
-                  href="https://www.google.com/search?q=pomodoro+restaurant&oq=pomodoro+restaurant&aqs=chrome.0.0i355i457i512j46i175i199i512j69i60l2j0i512l3j46i175i199i512j0i512l2.6058j0j4&client=ms-android-vf-za-revc&sourceid=chrome-mobile&ie=UTF-8#trex=m_t:lcl_akp,rc_f:nav,rc_ludocids:14690117064930004955,rc_q:Pomodoro%2520Restaurant,ru_q:Pomodoro%2520Restaurant,trex_id:ocuFTc&lpg=cid:CgIgAQ%3D%3D"
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  ><i class="fa fa-google"></i
-                ></a>
-              </li>
-            </ul>
+          <div class="col-md-4 footer-logo">
+            <a class="logo-bottom" href="#"
+              ><img src="logo.png" alt="" width="170"
+            /></a>
           </div>
           <div class="col-md-4">
             <a
               class="web-designer"
               href="https://za.linkedin.com/in/shawn-thysse-a328ab144"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
               >Design: Shawn Thysse</a
             >
           </div>
