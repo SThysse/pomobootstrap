@@ -744,6 +744,10 @@ footer p {
     width: 250px;
     height: 150px;
   }
+  #map {
+    height: 100;
+    width: 150;
+  }
 }
 
 @media (max-width: 700px) {
