@@ -11,6 +11,9 @@ const navbarLinks = document.getElementsByClassName("navbar_links")[0];
 toggleButton.addEventListener("click", () => {
   navbarLinks.classList.toggle("active");
 });
+navbarLinks.addEventListener("click", () => {
+  navbarLinks.classList.toggle("active");
+});
 
 // Img Gallery
 let slidePosition = 1;
